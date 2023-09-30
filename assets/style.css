@@ -100,6 +100,49 @@ body{
     margin-bottom: 20px;
 }
 
+/* menu mobile */
+/* .main-menu-container{
+    height: 100vh;
+    width: 100%;
+} */
+.mobile-menu{
+    padding: 24px;
+    height: 100vh;
+}
+
+.mobile-menu a{
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+  
+}
+.mobile-menu ul{
+    padding: 0px;
+    margin: 24px 0px 0px;
+    list-style: none;
+}
+
+.mobile-menu ul:nth-child(1){
+    border-bottom: 1px solid var(--very-light-pink);
+}
+.mobile-menu ul:nth-child(3){
+    position: absolute;
+    bottom: 0;
+}
+.mobile-menu ul li{
+    margin-bottom: 24px;
+}
+
+.mobile-menu .email-mobile{
+    font-size: var(--sm);
+    font-weight: 300;
+}
+
+.mobile-menu .sing-out-mobile{
+    color: var(--hospital-green);
+    font-size: var(--sm);
+}
+
 
 
 /* password view */
