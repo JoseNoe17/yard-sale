@@ -13,18 +13,19 @@
 <body>
     <div class="login">
         <div class="form-container">
-            <img src="./assets/logos/logo_yard_sale.svg" alt="logo" class="logo">
-            <h1 class="title"> Create a new password</h1>
-            <p class="subtitle">Enter a new password for your account</p>
+            <img src="./assets/logos/logo_yard_sale.svg" alt="logo" class="logo-login">
 
             <form action="/" class="form">
-                <label for="password" class="label"> Password</label>
-                <input class="input input-password" type="password" name="password" id="password" required placeholder="**********">
+                <label for="email" class="label"> email address</label>
+                <input class="input input-email" type="email" name="email" id="email" required placeholder="jose@gmail.com">
                 
-                <label for="new-password" class="label">Re-enter Password</label>
-                <input class="input input-password" type="password" name="new-password" id="new-password" required placeholder="**********">
-                <input type="submit" value="Confirm" class="primary-button login-button">
+                <label for="assword" class="label">Password</label>
+                <input class="input input-password" type="password" name="password" id="password" required placeholder="**********">
+                <input type="submit" value="Log in" class="primary-button login-button">
+                <a href="./password.html">Forgot my password</a>
             </form>
+
+            <button class="secondary-button signup-button">Sign up</button>
         </div>
     </div>
 </body>
